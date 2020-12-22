@@ -13,6 +13,7 @@ body {
     font-size: 15px;
     font-family: 'Spartan', sans-serif;
     font-weight: 400;
+    color: hsl(333, 80%, 67%);
 }
 
 .page {
@@ -95,6 +96,10 @@ body {
     align-self: flex-start;
 }
 
+.light {
+    color: hsl(303, 10%, 53%);
+}
+
 .two {
     align-self: center;
 }
@@ -105,4 +110,48 @@ body {
 
 .per {
     padding-left: 31px;
+    color: hsl(300, 43%, 22%);
+}
+
+@media screen and (max-width: 700px) {
+    .revs {
+        flex-direction: column;
+    }
+    .top {
+        flex-direction: column;
+    }
+    .first {
+        font-size: 25px;
+        align-items: center;
+        text-align: center;
+    }
+    body {
+        padding: 4% 3%;
+    }
+    .light {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .per {
+        display: flex;
+        display: inline-block;
+        margin-top: 8px;
+        padding-left: 0px;
+    }
+    .one {
+        text-align: center;
+        align-self: auto;
+    }
+    .two {
+        text-align: center;
+        align-self: auto;
+    }
+    .three {
+        text-align: center;
+        align-self: auto;
+    }
+    .stars {
+        width: 105%;
+        padding-left: 0%;
+    }
 }
