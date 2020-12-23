@@ -116,6 +116,7 @@ body {
 @media screen and (max-width: 700px) {
     .revs {
         flex-direction: column;
+        padding: 11px;
     }
     .top {
         flex-direction: column;
